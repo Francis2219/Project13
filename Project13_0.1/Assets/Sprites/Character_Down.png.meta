@@ -1,25 +1,7 @@
 fileFormatVersion: 2
-guid: d908c3942b61e409180bc82b102f6669
+guid: 54595b9724bf9d64d9a5fb4ee10a97dd
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5971374973502496534
-    second: MuchoPixels_Atlas_0
-  - first:
-      213: -5972111148354332953
-    second: MuchoPixels_Atlas_1
-  - first:
-      213: -4719924365903260669
-    second: MuchoPixels_Atlas_2
-  - first:
-      213: 2387368297801528804
-    second: MuchoPixels_Atlas_3
-  - first:
-      213: 8292876365225586833
-    second: MuchoPixels_Atlas_4
-  - first:
-      213: -9006177875772746979
-    second: MuchoPixels_Atlas_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -62,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -80,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -94,168 +76,114 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MuchoPixels_Atlas_0
+      name: Character_Down_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 124
-        width: 64
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02d1060982c1e4a8188d4153164ff795
-      internalID: 5971374973502496534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MuchoPixels_Atlas_1
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 123
-        width: 116
-        height: 36
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 070a7c9e3e8bd4468b48d7f18294abb0
-      internalID: -5972111148354332953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MuchoPixels_Atlas_2
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 39
-        width: 51
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c34bbc8881e8489ca166e3c44f279d9
-      internalID: -4719924365903260669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MuchoPixels_Atlas_3
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 91
-        width: 88
+        x: 8
+        y: 6
+        width: 16
         height: 19
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aa09dab1caaf4832850b252868d1e1c
-      internalID: 2387368297801528804
+      spriteID: 527f1e411181cb04883ccff6d11076bb
+      internalID: 1905338821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MuchoPixels_Atlas_4
+      name: Character_Down_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 27
-        width: 128
-        height: 48
-      alignment: 6
+        x: 40
+        y: 4
+        width: 16
+        height: 20
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e613f1b509ac54486b21b6f720104a1e
-      internalID: 8292876365225586833
+      spriteID: 41edb07cd64e6664a9453d363be5e614
+      internalID: -96606416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MuchoPixels_Atlas_5
+      name: Character_Down_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 18
-      alignment: 6
+        x: 72
+        y: 6
+        width: 16
+        height: 19
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c11b934628a64e1ba93620c03e37ee4
-      internalID: -9006177875772746979
+      spriteID: 86028fda49a03b9418f9acc4fa19d064
+      internalID: -1260315930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Down_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8bde2a0c727d34b930392cb82d6cfe
+      internalID: 1594048561
       vertices: []
       indices: 
       edges: []
@@ -263,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: df5f257335d304f9ab123c7e3343b978
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -271,12 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MuchoPixels_Atlas_0: 5971374973502496534
-      MuchoPixels_Atlas_1: -5972111148354332953
-      MuchoPixels_Atlas_2: -4719924365903260669
-      MuchoPixels_Atlas_3: 2387368297801528804
-      MuchoPixels_Atlas_4: 8292876365225586833
-      MuchoPixels_Atlas_5: -9006177875772746979
+      Character_Down_0: 1905338821
+      Character_Down_1: -96606416
+      Character_Down_2: -1260315930
+      Character_Down_3: 1594048561
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
